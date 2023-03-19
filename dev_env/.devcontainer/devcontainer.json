@@ -1,0 +1,12 @@
+{
+    "name": "dev", // コンテナ名
+    "dockerComposeFile": [
+        "./docker-compose.yml" // Docker Compose のファイルパス
+    ],
+    "service": "dev", // Docker Compose の接続サービス名
+    "workspaceFolder": "/work", // Workspace のフォルダ
+    "extensions": [
+        "ms-vscode.cpptools-extension-pack", // C/C++ Ectension Pack
+        "formulahendry.code-runner" // Code Runner
+    ],
+}
